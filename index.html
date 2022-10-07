@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>WP SLIDER</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <style type="text/tailwindcss">
+         @layer utilities {
+         .content-auto {
+         content-visibility: auto;
+         }
+         }
+         html,
+         body {
+         position: relative;
+         height: 100%;
+         }
+         body {
+         background: #F4F2E9;
+         font-family: 'Poppins', Poppins-serif;
+         font-size: 14px;
+         color: #000;
+         margin: 0;
+         padding: 0;
+         }
+         .swiper {
+         width: 100%;
+         padding-top: 50px;
+         padding-bottom: 50px;
+         }
+         .swiper-slide {
+         background-position: center;
+         background-size: cover;
+         width: 300px;
+         height: 550px;
+         background: #ffffff;
+         border-radius: 6px;
+         overflow: hidden;
+         }
+         .swiper-slide img {
+         display: block;
+         width: 100%;
+         }
+         .swiper-slide img:hover {
+         -ms-transform: scale(1.1);
+         -webkit-transform: scale(1.1);
+         transform: scale(1.1);
+         }
+      </style>
+   </head>
+   <body>
+      <div class="swiper mySwiper">
+         <div class="swiper-wrapper">
+            <!-- Slide One -->
+            <div class="swiper-slide">
+               <img src="http://atlas-content-cdn.pixelsquid.com/stock-images/potato-L6OLOmC-600.jpg" />
+               <h1
+                  class="text-[18px] font-bold tracking-wide	text-center font-Poppins pt-[30px] pb-[5px] pl-[20px] pr-[20px]">
+                  Lorem Ipsum Product
+               </h1>
+               <p
+                  class="text-[14px] font-medium tracking-wide text-center font-Poppins pt-[5px] pb-[5px] pl-[20px] pr-[20px]">
+                  Lorem Ipsum Dummy content, here just for demo
+               </p>
+               <p
+                  class="text-[14px] font-bold tracking-wide	 text-center font-Poppins pt-[10px] pb-[5px] pl-[20px] pr-[20px]">
+                  $19.00
+               </p>
+               <div class="text-center pt-[10px] pb-[5px] pl-[20px] pr-[20px]">
+                  <button
+                     class="bg-[#D6111E] hover:bg-[#171422] text-white font-bold py-2 px-4 border-blue-700 rounded">
+                  Add to cart
+                  </button>
+               </div>
+            </div>
+            <!-- Slide Two -->
+            <div class="swiper-slide">
+               <img src="http://atlas-content-cdn.pixelsquid.com/stock-images/potato-L6OLOmC-600.jpg" />
+               <h1
+                  class="text-[18px] font-bold tracking-wide	text-center font-Poppins pt-[30px] pb-[5px] pl-[20px] pr-[20px]">
+                  Lorem Ipsum Product
+               </h1>
+               <p
+                  class="text-[14px] font-medium tracking-wide	 text-center font-Poppins pt-[5px] pb-[5px] pl-[20px] pr-[20px]">
+                  Lorem Ipsum Dummy content, here just for demo
+               </p>
+               <p
+                  class="text-[14px] font-bold tracking-wide	 text-center font-Poppins pt-[10px] pb-[5px] pl-[20px] pr-[20px]">
+                  $19.00
+               </p>
+               <div class="text-center pt-[10px] pb-[5px] pl-[20px] pr-[20px]">
+                  <button
+                     class="bg-[#D6111E] hover:bg-[#171422] text-white font-bold py-2 px-4 border-blue-700 rounded">
+                  Add to cart
+                  </button>
+               </div>
+            </div>
+            <!-- Slide Three -->
+            <div class="swiper-slide">
+               <img src="http://atlas-content-cdn.pixelsquid.com/stock-images/potato-L6OLOmC-600.jpg" />
+               <h1
+                  class="text-[18px] font-bold tracking-wide	text-center font-Poppins pt-[30px] pb-[5px] pl-[20px] pr-[20px]">
+                  Lorem Ipsum Product
+               </h1>
+               <p
+                  class="text-[14px] font-medium tracking-wide	 text-center font-Poppins pt-[5px] pb-[5px] pl-[20px] pr-[20px]">
+                  Lorem Ipsum Dummy content, here just for demo
+               </p>
+               <p
+                  class="text-[14px] font-bold tracking-wide	 text-center font-Poppins pt-[10px] pb-[5px] pl-[20px] pr-[20px]">
+                  $19.00
+               </p>
+               <div class="text-center pt-[10px] pb-[5px] pl-[20px] pr-[20px]">
+                  <button
+                     class="bg-[#D6111E] hover:bg-[#171422] text-white font-bold py-2 px-4 border-blue-700 rounded">
+                  Add to cart
+                  </button>
+               </div>
+            </div>
+            <!-- Slide Four -->
+            <div class="swiper-slide">
+               <img src="http://atlas-content-cdn.pixelsquid.com/stock-images/potato-L6OLOmC-600.jpg" />
+               <h1
+                  class="text-[18px] font-bold tracking-wide	text-center font-Poppins pt-[30px] pb-[5px] pl-[20px] pr-[20px]">
+                  Lorem Ipsum Product
+               </h1>
+               <p
+                  class="text-[14px] font-medium tracking-wide	 text-center font-Poppins pt-[5px] pb-[5px] pl-[20px] pr-[20px]">
+                  Lorem Ipsum Dummy content, here just for demo
+               </p>
+               <p
+                  class="text-[14px] font-bold tracking-wide	 text-center font-Poppins pt-[10px] pb-[5px] pl-[20px] pr-[20px]">
+                  $19.00
+               </p>
+               <div class="text-center pt-[10px] pb-[5px] pl-[20px] pr-[20px]">
+                  <button
+                     class="bg-[#D6111E] hover:bg-[#171422] text-white font-bold py-2 px-4 border-blue-700 rounded">
+                  Add to cart
+                  </button>
+               </div>
+            </div>
+            <!-- Slide Five -->
+            <div class="swiper-slide">
+               <img src="http://atlas-content-cdn.pixelsquid.com/stock-images/potato-L6OLOmC-600.jpg" />
+               <h1
+                  class="text-[18px] font-bold tracking-wide	text-center font-Poppins pt-[30px] pb-[5px] pl-[20px] pr-[20px]">
+                  Lorem Ipsum Product
+               </h1>
+               <p
+                  class="text-[14px] font-medium tracking-wide	 text-center font-Poppins pt-[5px] pb-[5px] pl-[20px] pr-[20px]">
+                  Lorem Ipsum Dummy content, here just for demo
+               </p>
+               <p
+                  class="text-[14px] font-bold tracking-wide	 text-center font-Poppins pt-[10px] pb-[5px] pl-[20px] pr-[20px]">
+                  $19.00
+               </p>
+               <div class="text-center pt-[10px] pb-[5px] pl-[20px] pr-[20px]">
+                  <button
+                     class="bg-[#D6111E] hover:bg-[#171422] text-white font-bold py-2 px-4 border-blue-700 rounded">
+                  Add to cart
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="text-center pt-[50px] pb-[50px]">
+            <button
+               class="button-prev bg-[#D6111E] hover:bg-[#171422] text-white font-bold py-2 px-4 border-blue-700 rounded">
+            < </button>
+            <button
+               class="button-next bg-[#D6111E] hover:bg-[#171422] text-white font-bold py-2 px-4 border-blue-700 rounded">
+            >
+            </button>
+         </div>
+      </div>
+      <script>
+         var swiper = new Swiper(".mySwiper", {
+             loop: true,
+             speed: 1000,
+             autoplay: {
+                 delay: 3000,
+             },
+             effect: "coverflow",
+             grabCursor: true,
+             centeredSlides: true,
+             slidesPerView: "auto",
+             coverflowEffect: {
+                 rotate: 50,
+                 stretch: 0,
+                 depth: 600,
+                 modifier: 1,
+                 slideShadows: true,
+             },
+             navigation: {
+                 nextEl: '.button-next',
+                 prevEl: '.button-prev',
+             },
+         });
+      </script>
+   </body>
+</html>
